@@ -1,0 +1,188 @@
+*{
+    
+    margin:0;
+    padding:0;
+}
+
+header{
+    margin-top:10px;
+    width:100%;
+    height:150px;
+    overflow:hidden;
+    position:relative;
+}
+
+nav{
+    top:-20px;
+    position:absolute;
+    left:0;
+    right:0;
+    
+    margin:20px auto;
+    max-width:1000px;
+    width:90%;
+}
+
+nav ul {
+    list-style:none; 
+}
+
+nav > ul{
+    display:table; 
+    width:100%;
+    background:#000;
+    position:relative;
+}
+
+nav > ul li{
+    display:table-cell;
+}
+
+/*Sub-menu*/
+nav > ul > li:hover > ul{
+    display:block;
+    height:100%;
+}
+
+nav > ul > li > ul {
+    display:block;
+    position:absolute;
+    background:#000;
+    left:0;
+    right:0;
+    overflow:hidden;
+    height:0%;
+    -webkit-transición: todos .3s facilidad; 
+    -moz-transición: todos .3s facilidad; 
+    -ms-transición: todos .3s facilidad; 
+    -o-transición: todos .3s facilidad; 
+    transición: todos .3s facilidad;    
+}
+
+nav > ul li a {
+    color:#fff;
+    display:block;
+    line-height:20px;
+    padding:20px;
+    position:relative;
+    text-align:center;
+    text-decoration:none;
+    -webkit-transición: todos .3s facilidad; 
+    -moz-transición: todos .3s facilidad; 
+    -ms-transición: todos .3s facilidad; 
+    -o-transición: todos .3s facilidad; 
+    transición: todos .3s facilidad;
+}
+
+nav > ul > li > ul > li a:hover{
+    background:#5da5a2;
+}
+
+nav > ul > li > a span{
+    background:#174459;
+    display:block;
+    height:100%;
+    width:100%;
+    left:0;
+    position:absolute;
+    top:-55px;
+    -webkit-transición: todos .3s facilidad; 
+    -moz-transición: todos .3s facilidad; 
+    -ms-transición: todos .3s facilidad; 
+    -o-transición: todos .3s facilidad; 
+    transición: todos .3s facilidad;
+}
+
+nav > ul > li > a span .icon{
+    display:block;
+    line-height:60px;    
+}
+
+nav > ul > li > a:hover > span{
+    top:0;
+}
+
+/*colores*/
+nav ul li a .primero{
+    background:#0e5061;
+}
+
+nav ul li a .segundo{
+    background:#5da5a2;
+}
+
+nav ul li a .tercero{
+    background:#f25724;
+}
+
+nav ul li a .cuarto{
+    background:#174459;
+}
+
+nav ul li a .quinto{
+    background:#37a4da;
+}
+
+
+div#general{
+    margin: auto;
+    width:860px;
+    height:3000px;
+    background-color: indianred
+}
+
+
+
+body{ 
+background-color:sky;
+margin-top:0px;
+
+}
+
+#practica{
+width:1030px;
+height:auto;
+background-color:#AB8A6C;
+margin-left:auto;
+ margin-right:auto;
+}
+#practica #emcabezado{
+width:1000px;
+height:130px;
+background-color:#AB8A6C;
+}
+#practica #oferta{
+margin-top:18px;
+float:right;
+width:200px;
+height:1000px;
+background-color:#AB8A6C;
+}
+#practica #novedad{
+margin-top:0px;
+float:left;
+width:200px;
+height:1016px;
+background-color:#AB8A6C;
+}
+
+#practica #menu{
+width:1028px;
+
+background-color:#f2e3b6;
+text-align:left
+}
+#practica #menu_contenido{
+
+width:100%;
+height:1000px;
+background-color:#CCB18E;
+
+}
+#practica #pie_de_pagina{
+width:100%;
+height:25px;
+background-color:black;
+color: white;
+text-align:center
+}
